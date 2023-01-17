@@ -48,6 +48,7 @@ public class BonBon {
                 System.out.println("Input must be a whole number within the scale of 1 - 10. Try again");
                 //updating error status
                 error = true;
+                fluff = 0;
             } else {
                 System.out.println("Fluff Lvl = "+fluff);
             }
