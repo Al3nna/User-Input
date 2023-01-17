@@ -14,8 +14,9 @@ public class BonBon {
         float cake = 0;
         int addedFluff = 0;
 
-        //creating scanner object
+        //creating scan object that reads from System.in
         Scanner scan = new Scanner(System.in);
+        
         System.out.println("Welcome to BonBon pet creation!");
         System.out.println();
         System.out.println("Name your BonBon");
